@@ -1,0 +1,21 @@
+body { 
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-weight: bold; 
+  font-size: 2em;
+}
+
+.climb p {
+  padding: 30px;
+}
+
+.climb span {
+  font-weight: bold;
+}
+
+.welcome {
+  padding-top: 200px;
+}
