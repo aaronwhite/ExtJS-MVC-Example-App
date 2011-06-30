@@ -25,25 +25,10 @@ Ext.define('RockLog.view.ListClimbs', {
                xtype: 'gridpanel',
                store : 'AllClimbs',
 
-               viewConfig: {
-                   plugins: {
-                       ptype: 'gridviewdragdrop'
-                   }
-               },
-
               columns: [
                    {header: 'Difficulty',  dataIndex: 'difficulty',  flex: 1},
                    {header: 'Date', dataIndex: 'date', flex: 1}
-               ],
-
-               dockedItems: [{      
-                 xtype: 'toolbar',
-                 dock: 'top',
-                 items: [
-                   { text: 'New', action: 'new' },
-                   { text: 'Remove', action: 'delete' }, 
-                 ]
-               }]
+               ]
             }
           ]
       },
